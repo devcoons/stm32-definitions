@@ -1,11 +1,11 @@
 /*!
-	@file   iframework.h
+	@file   tsk_app.h
 	@brief  <brief description here>
 	@t.odo	-
 	---------------------------------------------------------------------------
 
 	MIT License
-	Copyright (c) 2021 Io. D (Devcoons)
+	Copyright (c) 2022 Energica Motor Company (<Name Here>)
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
@@ -29,104 +29,36 @@
 * Preprocessor Definitions & Macros
 ******************************************************************************/
 
-#ifndef IFRAMEWORK_H_
-#define IFRAMEWORK_H_
+#ifndef TSK_APP_H_
+#define TSK_APP_H_
 
 /******************************************************************************
 * Includes
 ******************************************************************************/
 
-#if __has_include("definitions.h")
-#include "definitions.h"
-#else
-#error "Missing: `definitions.h` file"
-#endif
+#include "user_code.h"
 
 /******************************************************************************
-* Includes - Framework Drivers
+* Enumerations, structures & Variables
 ******************************************************************************/
 
-#if __has_include("drv_flash.h")
-#include "drv_flash.h"
-#endif
-
-#if __has_include("drv_canbus.h")
-#include "drv_canbus.h"
-#endif
-
-#if __has_include("drv_uart.h")
-#include "drv_uart.h"
-#endif	
-
-#if __has_include("drv_adc.h")
-#include "drv_adc.h"
-#endif
-
-#if __has_include("drv_uart.h")
-#include "drv_uart.h"
-#endif
-
-#if __has_include("drv_gpio.h")
-#include "drv_gpio.h"
-#endif
-
-#if __has_include("drv_pwm.h")
-#include "drv_pwm.h"
-#endif
-
-#if __has_include("drv_pwrc.h")
-#include "drv_pwrc.h"
-#endif
-
-#if __has_include("drv_usb.h")
-#include "drv_usb.h"
-#endif
+static TickType_t x_last_waketime = 0;
 
 /******************************************************************************
-* Includes - Framework Libraries
+* Declaration | Static Functions
 ******************************************************************************/
-
-#if __has_include("lib_iqueue.h")
-#include "lib_iqueue.h"
-#endif
-
-#if __has_include("lib_rnd.h")
-#include "lib_rnd.h"
-#endif	
-
-#if __has_include("lib_crypto.h")
-#include "lib_crypto.h"
-#endif
-
-#if __has_include("lib_iso15765.h")
-#include "lib_iso15765.h"
-#endif
-
-#if __has_include("lib_iso14229.h")
-#include "lib_iso14229.h"
-#endif
-
-#if __has_include("lib_ifm.h")
-#include "lib_ifm.h"
-#endif
 
 /******************************************************************************
-* Includes - Framework Tasks
+* Definition  | Static Functions
 ******************************************************************************/
 
-#if __has_include("tsk_uds.h")
-#include "tsk_uds.h"
-#endif
+/******************************************************************************
+* Definition  | Public Functions
+******************************************************************************/
 
-#if __has_include("appcode_tsks.h")
-#include "basecode_tsks.h"
-#endif
-
-#if __has_include("appcode_tsks.h")
-#include "appcode_tsks.h"
-#endif
+i_status tsk_uds_start();
+void tsk_app(void *argument);
 
 /******************************************************************************
 * EOF - NO CODE AFTER THIS LINE
 ******************************************************************************/
-#endif
