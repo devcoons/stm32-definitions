@@ -59,6 +59,10 @@ void tsk_system(void *argument)
 	HAL_IWDG_Refresh(&hiwdg);
 	#endif
 
+	#if __has_include("tsk_app.h")
+	tsk_app_start();
+	#endif
+	
 	while(1)
 	{
 		#ifdef HAL_IWDG_MODULE_ENABLED
