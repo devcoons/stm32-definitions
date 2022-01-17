@@ -62,6 +62,10 @@
 #include "drv_adc.h"
 #endif
 
+#if __has_include("drv_spi.h")
+#include "drv_spi.h"
+#endif
+
 #if __has_include("drv_uart.h")
 #include "drv_uart.h"
 #endif
