@@ -8,7 +8,9 @@
 * Preprocessor Definitions & Macros
 ******************************************************************************/
 
-//#include "tsk_app.h"
+#if __has_include("tsk_app.h")
+#include "tsk_app.h"
+#endif
 
 /******************************************************************************
 * EOF - NO CODE AFTER THIS LINE
