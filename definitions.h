@@ -32,10 +32,6 @@
 #ifndef DEFINITIONS_H_
 #define DEFINITIONS_H_
 
-/* --- USEFUL MACROS ------------------------------------------------------- */
-
-#define iTIMEOUT(s,c,t)  (s < c ?  s - (UINT_MAX - c)   : s - c) < t ? 0 : 1
-
 /******************************************************************************
 * Includes
 ******************************************************************************/
@@ -43,6 +39,7 @@
 #include <inttypes.h>
 #include <stdbool.h>
 #include <string.h>
+#include <limits.h>
 
 #if __has_include("FreeRTOS.h")
 #include "FreeRTOS.h"
@@ -63,6 +60,11 @@
 #if __has_include("iwdg.h")
 #include "iwdg.h"
 #endif
+
+
+/* --- USEFUL MACROS ------------------------------------------------------- */
+
+#define iTIMEOUT(s,c,t)  (s < c ?  s - (UINT_MAX - c)   : s - c) < t ? 0 : 1
 
 /******************************************************************************
 * Enumerations, structures & Variables
