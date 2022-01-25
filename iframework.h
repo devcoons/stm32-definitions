@@ -114,6 +114,10 @@
 #include "lib_ifm.h"
 #endif
 
+#if __has_include("lib_intercom.h")
+#include "lib_intercom.h"
+#endif
+
 /******************************************************************************
 * Includes - Framework Tasks
 ******************************************************************************/
