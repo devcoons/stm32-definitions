@@ -3,7 +3,7 @@
  STM32 Basic Definitions and Framework Library.
  
  ## How to use
- - Add `definitions.h` to your project.
+ - Add `definitions.h` to your code.
  - Add `iframework.h` to your code: this automatically includes the libraries and drivers correctly added to the project.
  - Change the templates as needed and add them to your project, renaming them without the `.template` suffix
  
