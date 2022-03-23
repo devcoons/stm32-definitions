@@ -9,6 +9,7 @@
  
  ## Template list
  ## FREERtos
+ Needed when FreeRTOS is enabled: 
  - [appcode task](https://github.com/energicamotor/stm32-definitions/blob/main/appcode_tsks.h.template)
  - [basecode task](https://github.com/energicamotor/stm32-definitions/blob/main/appcode_tsks.h.template)
  - [system task](https://github.com/energicamotor/stm32-definitions/blob/main/tsk_system.c.template)
