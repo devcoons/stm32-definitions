@@ -8,7 +8,7 @@
  - Change the templates as needed and add them to your project, renaming them without the `.template` suffix
  
  ## Template list
- ## FREERtos
+ ## FreeRTOS
  Needed when FreeRTOS is enabled: 
  - [appcode task](https://github.com/energicamotor/stm32-definitions/blob/main/appcode_tsks.h.template)
  - [basecode task](https://github.com/energicamotor/stm32-definitions/blob/main/appcode_tsks.h.template)
