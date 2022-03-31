@@ -134,6 +134,10 @@
 #include "lib_efbn.h"
 #endif
 
+#if __has_include("lib_chronos.h")
+#include "lib_chronos.h"
+#endif
+
 /******************************************************************************
 * Includes - Framework Tasks
 ******************************************************************************/
