@@ -26,36 +26,8 @@
  
  
  # GITGRAPH
- ``` mermaid
- %%init:{ {'theme': 'forest'}}%%
-  gitGraph
-     commit id: "bf7830de"
-     commit id: "9a2fc0c7"
-     commit id: "a67710d4"
-     commit id: "4d99444d"
-     commit id: "4b81a4e4"
-     commit id: "7e61b24b"
-     commit id: "327a3867"
-     commit id: "7684952e"
-     commit id: "27cffe47"
-     commit id: "3ffad3a2"
-     commit id: "65bdbafd"
-     commit id: "e775358f"
-     commit id: "2c686f5a"
-     commit id: "64fadc35"
-     commit id: "cedf4f82"
-     commit id: "155508f9"
-     commit id: "081a0f5e"
-     commit id: "2f46889b"
-     commit id: "64ab1900"
-     commit id: "0336a170"
-     commit id: "be782158"
-     commit id: "6840593a"
-     commit id: "44d2a2ba7a"
-     commit id: "71f8be845"
-     commit id: "8f96a948"
+[![](https://mermaid.ink/img/pako:eNp1k79uAyEMxl8lYs7A8dfc3KoP0DWLATs5qZeLLmSoorx7uagdKjkgYPjZn80nuKuyVFKjOk7tY8XL6XDe9VGWeZ7abqrj7qAyR7C60kEJMKHhoksUIYYYB12dCF1NyTlXZZhhQEdyZqQwZOOyCK2JaCHIDcUALnkjX8XEwkxOzrTMWC0aEQafa0aWr0IxeuuB5ZolQGCPsqzrNYv1IixU2THIDQ3eew2cRKi7tZr9CxPYBYCUXzSEeUhay7LWBhyiDDNFMIMHWRac9snKJvQXYtBkjDKOA0MmcLJJ3YKAyT3LbnML-L9vZ1_bofZqpnXGqfb_cH8C1U40d6M2LV5WurZN6dEjb5eKjd7r1JZVjYxfV9orvLXl8_tc1NjWG_0FvU14XHH-jXr8AFSiAak)](https://mermaid.live/edit#pako:eNp1k79uAyEMxl8lYs7A8dfc3KoP0DWLATs5qZeLLmSoorx7uagdKjkgYPjZn80nuKuyVFKjOk7tY8XL6XDe9VGWeZ7abqrj7qAyR7C60kEJMKHhoksUIYYYB12dCF1NyTlXZZhhQEdyZqQwZOOyCK2JaCHIDcUALnkjX8XEwkxOzrTMWC0aEQafa0aWr0IxeuuB5ZolQGCPsqzrNYv1IixU2THIDQ3eew2cRKi7tZr9CxPYBYCUXzSEeUhay7LWBhyiDDNFMIMHWRac9snKJvQXYtBkjDKOA0MmcLJJ3YKAyT3LbnML-L9vZ1_bofZqpnXGqfb_cH8C1U40d6M2LV5WurZN6dEjb5eKjd7r1JZVjYxfV9orvLXl8_tc1NjWG_0FvU14XHH-jXr8AFSiAak)
 
-```
     
     
     
