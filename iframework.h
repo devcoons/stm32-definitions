@@ -98,6 +98,10 @@
 #include "drv_bq79606aq1.h"
 #endif
 
+#if __has_include("drv_sigmadelta.h")
+#include "drv_sigmadelta.h"
+#endif
+
 /******************************************************************************
 * Includes - Framework Libraries
 ******************************************************************************/
