@@ -150,6 +150,10 @@
 #include "lib_jmp.h"
 #endif
 
+#if __has_include("lib_slavecore.h")
+#include "lib_slavecore.h"
+#endif
+
 #if __has_include("lib_data.h")
 #include "lib_data.h"
 #endif
