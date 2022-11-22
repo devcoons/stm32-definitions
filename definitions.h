@@ -64,7 +64,13 @@
 
 /* --- USEFUL MACROS ------------------------------------------------------- */
 
+#ifndef iTIMEOUT
 #define iTIMEOUT(s,c,t)  (s < c ?  s - (UINT_MAX - c)   : s - c) < t ? 0 : 1
+#endif
+
+#ifndef UNUSED
+#define UNUSED(X) (void)X
+#endif
 
 /******************************************************************************
 * Enumerations, structures & Variables
