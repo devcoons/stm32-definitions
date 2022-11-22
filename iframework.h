@@ -66,10 +66,6 @@
 #include "drv_spi.h"
 #endif
 
-#if __has_include("drv_uart.h")
-#include "drv_uart.h"
-#endif
-
 #if __has_include("drv_gpio.h")
 #include "drv_gpio.h"
 #endif
@@ -88,6 +84,22 @@
 
 #if __has_include("drv_rtc.h")
 #include "drv_rtc.h"
+#endif
+
+#if __has_include("drv_eeprom.h")
+#include "drv_eeprom.h"
+#endif
+
+#if __has_include("drv_spi_flash.h")
+#include "drv_spi_flash.h"
+#endif
+
+#if __has_include("drv_bq79606aq1.h")
+#include "drv_bq79606aq1.h"
+#endif
+
+#if __has_include("drv_sigmadelta.h")
+#include "drv_sigmadelta.h"
 #endif
 
 /******************************************************************************
@@ -124,6 +136,26 @@
 
 #if __has_include("lib_swcp.h")
 #include "lib_swcp.h"
+#endif
+
+#if __has_include("lib_efbn.h")
+#include "lib_efbn.h"
+#endif
+
+#if __has_include("lib_chronos.h")
+#include "lib_chronos.h"
+#endif
+
+#if __has_include("lib_jmp.h")
+#include "lib_jmp.h"
+#endif
+
+#if __has_include("lib_slavecore.h")
+#include "lib_slavecore.h"
+#endif
+
+#if __has_include("lib_data.h")
+#include "lib_data.h"
 #endif
 
 /******************************************************************************
