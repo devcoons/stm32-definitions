@@ -110,6 +110,24 @@ typedef enum
 }i_status;
 #endif
 
+/* --- Variable Type ------------------------------------- */
+
+#ifndef VAR_TYPE
+#define VAR_TYPE
+typedef enum
+{
+	VAR_TYPE_U8 	= 0x01,
+	VAR_TYPE_I8 	= 0x11,
+	VAR_TYPE_U16 	= 0x02,
+	VAR_TYPE_I16 	= 0x12,
+	VAR_TYPE_U32 	= 0x04,
+	VAR_TYPE_I32 	= 0x14,
+	VAR_TYPE_U64 	= 0x08,
+	VAR_TYPE_I64 	= 0x18,
+	VAR_TYPE_ARR 	= 0x00,
+}var_type;
+#endif
+
 /* --- CANTP Mode - Frame Type (ref: x) ------------------------------------- */
 
 #ifndef CBUS_FR_FORMAT
